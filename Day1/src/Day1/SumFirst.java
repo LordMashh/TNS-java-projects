@@ -1,4 +1,4 @@
-package sum;
+package Day1;
 
 public class SumFirst {
 

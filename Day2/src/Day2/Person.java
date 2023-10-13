@@ -1,24 +1,10 @@
 package Day2;
 
-class Person {
-
-	private String pname;
+public class Person {
+	
 	private int income;
 	private float tax;
 	private String pemail;
-	
-	public String getPname() {
-		return pname;
-	}
-	public void setPname(String pname) {
-		this.pname = pname;
-	}
-	public int getIncome() {
-		return income;
-	}
-	public void setIncome(int income) {
-		this.income = income;
-	}
 	public float getTax() {
 		return tax;
 	}
@@ -31,11 +17,17 @@ class Person {
 	public void setPemail(String pemail) {
 		this.pemail = pemail;
 	}
+	public int getIncome() {
+		return income;
+	}
+	public void setIncome(int income) {
+		this.income = income;
+	}
 	@Override
 	public String toString() {
-		return "Person [pname=" + pname + ", income=" + income + ", tax=" + tax + ", pemail=" + pemail + "]";
+		return "Person [income=" + income + ", tax=" + tax + ", pemail=" + pemail + "]";
 	}
 	
 	
-	
+
 }
