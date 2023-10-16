@@ -1,4 +1,4 @@
-package Day2;
+ackage Day2;
 
  class Personinfo {
 
