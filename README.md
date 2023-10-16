@@ -1,2 +1,2 @@
 # TNS-java-projects
-This Includes all asignments and couseework during my TNS training
+This includes all assignments and coursework during my TNS course
